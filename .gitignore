@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+.impeccable/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Generated experiment data and model artifacts
+data/
+datasets/
+artifacts/
+checkpoints/
+runs/
+wandb/
+*.safetensors
+*.pt
+*.pth
